@@ -12,6 +12,40 @@
     height: 100vh;
     background: url(./img/bg1.jpg);
     background-size: cover;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.banner h1{
+    font-size: 3.5rem;
+   margin-top: 6rem;
+
+}
+
+@media (max-width:1080px) {
+    .banner h1{
+        font-size: 2.5rem;
+       margin-top: 4rem;
+    
+    }
+}
+
+@media (max-width:777px) {
+    .banner h1{
+        font-size: 2rem;
+       margin-top: 4rem;
+    
+    }
+}
+
+@media (max-width:592px) {
+    .banner h1{
+        font-size: 1.1rem;
+       margin-top: 4rem;
+    
+    }
 }
 
 .banner .clouds {
